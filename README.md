@@ -54,6 +54,7 @@ Download here: https://github.com/Teh-Lemon/Retro-Rocket-Rampage/releases
 * Capture the flag by knocking into the player holding onto it
 * The bomb power up will detonate after a certain period of time, killing all players near it
   * Pass on the bomb to other players by knocking into them
+
 -----
 ## Screenshots
 ![](https://dl.dropboxusercontent.com/u/15765996/Images/Retro%20Rocket%20Rampage/2015-05-02_23-15-54.png)
