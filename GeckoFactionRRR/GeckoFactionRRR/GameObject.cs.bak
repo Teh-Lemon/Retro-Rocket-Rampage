@@ -1,0 +1,66 @@
+﻿//  Created on 23/10/2013
+//  Holds the basic data for each object in the game world
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+
+namespace GeckoFactionRRR
+{
+    class GameObject
+    {
+        //data for world transform of object
+        public float Scale { get; set; }
+
+        public float Pitch { get; set; }
+        public float Yaw { get; set; }
+        public float Roll { get; set; }
+
+        public Vector3 Position { get; set; }
+
+        public Matrix worldMat { get; protected set; }
+
+        //  Colour the tint the model using emissive lighting effect
+        public Vector3 TintColor { get; set; }
+
+        //  Constructor
+        public GameObject()
+        {
+            initilize();
+        }
+
+        public virtual void initilize()
+        {
+            Scale = 1.0f;
+            Pitch = 0.0f;
+            Yaw = 0.0f;
+            Roll = 0.0f;
+            Position = new Vector3(0.0f, 0.0f, 0.0f);
+            TintColor = Vector3.Zero;
+        }
+
+        public virtual void update(float dt)
+        {
+            //  Create component matrices for world transform
+
+            Matrix rot = Matrix.CreateFromYawPitchRoll(Yaw, Pitch, Roll);   //  Rotation
+            Matrix scale = Matrix.CreateScale(Scale); //  Scalar
+            Matrix trans = Matrix.CreateTranslation(Position); //  Translation
+
+            //  Multiply to create world transform
+            worldMat = rot * scale * trans;
+        }
+
+        public virtual void draw(Camera camera)
+        {
+        }
+    }
+}

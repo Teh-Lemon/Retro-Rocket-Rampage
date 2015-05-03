@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeckoFactionRRR", "GeckoFactionRRR\GeckoFactionRRR\GeckoFactionRRR.csproj", "{7C5BC9AB-A348-449F-A5FD-9BF8333B61CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeckoFactionRRRContent", "GeckoFactionRRR\GeckoFactionRRRContent\GeckoFactionRRRContent.contentproj", "{893A03B0-56CF-478A-9D64-345A377B7775}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Arcade|x86 = Arcade|x86
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C5BC9AB-A348-449F-A5FD-9BF8333B61CC}.Arcade|x86.ActiveCfg = Arcade|x86
+		{7C5BC9AB-A348-449F-A5FD-9BF8333B61CC}.Arcade|x86.Build.0 = Arcade|x86
+		{7C5BC9AB-A348-449F-A5FD-9BF8333B61CC}.Debug|x86.ActiveCfg = Debug|x86
+		{7C5BC9AB-A348-449F-A5FD-9BF8333B61CC}.Debug|x86.Build.0 = Debug|x86
+		{7C5BC9AB-A348-449F-A5FD-9BF8333B61CC}.Release|x86.ActiveCfg = Release|x86
+		{7C5BC9AB-A348-449F-A5FD-9BF8333B61CC}.Release|x86.Build.0 = Release|x86
+		{893A03B0-56CF-478A-9D64-345A377B7775}.Arcade|x86.ActiveCfg = Release|x86
+		{893A03B0-56CF-478A-9D64-345A377B7775}.Debug|x86.ActiveCfg = Debug|x86
+		{893A03B0-56CF-478A-9D64-345A377B7775}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
