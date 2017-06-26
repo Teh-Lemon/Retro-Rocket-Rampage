@@ -5,8 +5,6 @@ Created by the team of 3, Gecko Faction Games, for the final year module "Commer
 
 The assignment was to create an offline multiplayer racing game based off the Bloodhound SSC project. Throughout the project the lecturers, who played the role of publishers, must be kept 'happy'. The game was targeted at Windows PC and the in-house arcade machine, running at 60 fps.
 
-Download here: https://github.com/Teh-Lemon/Retro-Rocket-Rampage/releases
-
 ## Technical Details
 * The game was built using C# and the Microsoft XNA framework.
 * Visual Studio was the IDE used and SVN was used for group collaboration
@@ -56,9 +54,9 @@ Download here: https://github.com/Teh-Lemon/Retro-Rocket-Rampage/releases
   * Pass on the bomb to other players by knocking into them
 
 ## Screenshots
-![](https://dl.dropboxusercontent.com/u/15765996/Images/Retro%20Rocket%20Rampage/2015-05-02_23-15-54.png)
-![](https://dl.dropboxusercontent.com/u/15765996/Images/Retro%20Rocket%20Rampage/2015-05-02_23-18-10.png)
-![](https://dl.dropboxusercontent.com/u/15765996/Images/Retro%20Rocket%20Rampage/2015-05-02_23-15-21.png)
-![](https://dl.dropboxusercontent.com/u/15765996/Images/Retro%20Rocket%20Rampage/IMAG1059.jpg)
+![](Documentation/Screenshots/2015-05-02_23-15-54.png)
+![](Documentation/Screenshots/2015-05-02_23-18-10.png)
+![](Documentation/Screenshots/2015-05-02_23-15-21.png)
+![](Documentation/Screenshots/IMAG1059.jpg)
 
   

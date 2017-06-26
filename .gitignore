@@ -230,3 +230,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 *.psd
+
+Documentation/Personal Diaries/*
